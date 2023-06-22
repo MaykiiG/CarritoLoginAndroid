@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrar"
+    android:background="@drawable/fondo_registro">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="339dp"
+        android:layout_height="318dp"
+        android:layout_marginTop="92dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/RegUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Introduce tu usuario"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#CDCBCB"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/RegPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:backgroundTint="#FF0000"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Introduce tu contraseña"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#CDCBCB"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/RegNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250px"
+            android:backgroundTint="#FF0000"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Introduce tu nombre"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#CDCBCB"
+            android:textColorLink="#CDCBCB"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/RegApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:backgroundTint="#FF0000"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Introduce tu apellido"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#CDCBCB"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegRegistrar"
+        android:layout_width="173dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#252525"
+        android:fontFamily="monospace"
+        android:text="Registrar"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegCancelar"
+        android:layout_width="179dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#252525"
+        android:fontFamily="monospace"
+        android:text="Cancelar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Registro"
+        android:textColor="#4CAF50"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="74dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="688dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/senat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
